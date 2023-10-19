@@ -2,12 +2,19 @@
 <html>
   <head>
     <title>Abhacker</title>
+    <link rel="stylesheet" href="popup.css">
   </head>
   <body>
-    <button id="startButton">Start</button>
-    <button id="stopButton">Stop</button>
-    <script type="module" src="popup.js"></script>
-    <script type="module" src="start.js"></script>
-    <script type="module" src="varibles.js"></script>
+    <div class="container">
+      <h1>Abhacker</h1>
+      <button class="activeButton" id="loadButton">Load</button>
+      <button class="activeButton" id="filterButton">Fillter</button>
+      <row class="row">
+        <button class="activeButton" id="startButton">Start</button>
+        <button class="activeButton" id="stopButton">Stop</button>
+      </row>
+    </div>
+    <script type="module" src="script.js" async></script>
+    <script src="popup.js"></script>
   </body>
 </html>
